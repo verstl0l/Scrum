@@ -1,0 +1,20 @@
+import tkinter as tk
+
+# Função para exibir uma mensagem quando o botão for clicado
+def exibir_mensagem():
+  print("O botão foi clicado!")
+
+# Criar uma janela
+janela = tk.Tk()
+janela.title("Posicionamento com Grid")
+
+# Adicionar um rótulo
+rotulo = tk.Label(janela, text="Olá, Tkinter!")
+rotulo.grid(row=0, column=0, padx=10, pady=10)  # Posicionado na primeira linha e primeira coluna
+
+# Adicionar um botão
+botao = tk.Button(janela, text="Clique Aqui", command=exibir_mensagem)
+botao.grid(row=1, column=0, padx=10, pady=10)  # Posicionado na segunda linha e primeira coluna
+
+# Executar o loop principal
+janela.mainloop()
