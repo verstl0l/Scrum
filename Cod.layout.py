@@ -1,13 +1,11 @@
-import tkinter as tk
-
-expressao = ""
-
+# Função para adicionar um valor à expressão
 def adicionar_valor(valor):
     global expressao
     expressao += str(valor)
-    entrada.delete(0, tk.END) 
-    entrada.insert(0, expressao) 
+    entrada.delete(0, tk.END)  # Limpa o campo
+    entrada.insert(0, expressao)  # Insere a nova expressão
 
+# Função para calcular a expressão
 def calcular():
     global expressao
     try:
@@ -26,12 +24,15 @@ def limpar():
     expressao = ""
     entrada.delete(0, tk.END)
 
+# Cria a janela principal
 janela = tk.Tk()
 janela.title("Calculadora")
 
+# Campo de exibição
 entrada = tk.Entry(janela, width=35, borderwidth=5)
 entrada.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
+# Botões de números e operadores
 botoes = [
     '7', '8', '9', '/',
     '4', '5', '6', '*',
