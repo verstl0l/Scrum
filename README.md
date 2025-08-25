@@ -46,9 +46,9 @@ Este projeto é uma ótima oportunidade para quem está começando a programar e
 # Victor Rodrigues (usuario: verstl0l)
 # Miguel Antunes
 # Gabriel Elias 
-# Guilherme 
+# Guilherme Oliveira
 # Cristian Mendonça 
-# Jeniffer
+# Jeniffer Brasil
 # Isabela Caetano 
 
 -----
