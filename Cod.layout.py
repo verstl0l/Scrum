@@ -1,8 +1,12 @@
+import tkinter as tk
+
+expressao = ""
+
 def adicionar_valor(valor):
     global expressao
     expressao += str(valor)
-    entrada.delete(0, tk.END)
-    entrada.insert(0, expressao)  
+    entrada.delete(0, tk.END) 
+    entrada.insert(0, expressao) 
 
 def calcular():
     global expressao
@@ -16,16 +20,20 @@ def calcular():
         entrada.insert(0, "Erro")
         expressao = ""
 
+
 def limpar():
     global expressao
     expressao = ""
     entrada.delete(0, tk.END)
 
+
 janela = tk.Tk()
 janela.title("Calculadora")
 
+
 entrada = tk.Entry(janela, width=35, borderwidth=5)
 entrada.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
+
 
 botoes = [
     '7', '8', '9', '/',
