@@ -28,7 +28,7 @@ def limpar():
 
 
 janela = tk.Tk()
-janela.title("Calculadora")
+janela.title("CalcCode")
 
 
 entrada = tk.Entry(janela, width=35, borderwidth=5)
