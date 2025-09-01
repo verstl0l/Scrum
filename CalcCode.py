@@ -3,11 +3,10 @@ import tkinter as tk
 def clicar(botao):
     if botao == "C":
         entrada.delete(0, tk.END)
-    elif botao == "{x]":
+    elif botao == "\u232b":  # Símbolo de backspace
         entrada.delete(len(entrada.get())-1, tk.END)
     elif botao == "=":
         try:
-           
             resultado = eval(entrada.get())
             entrada.delete(0, tk.END)
             entrada.insert(tk.END, str(resultado))
@@ -26,19 +25,27 @@ janela.configure(bg="#2b2b2b")
 
 entrada = tk.Entry(
     janela, width=15, borderwidth=15,
-    font=("Courier New", 24), justify="right",
+    font=("Courier New", 24), justify="left",
     bg="#3c3c3c", fg="green", insertbackground="white"
 )
 entrada.grid(row=0, column=0, columnspan=6, padx=40, pady=20, sticky="nsew")
 
-
+def precionar_tecla(event):
+    tecla = event.char
+    if tecla.isdigit() or tecla in "()+-*/.,":
+        entrada.insert(tk.END, tecla)
+    elif tecla == '\r':
+        clicar("=")
+    elif tecla == '\x08':  # Backspace
+        clicar("\u232b")
+janela.bind("<Key>", precionar_tecla)
 
 botoes = [
     '(', ')', 'C', '/',
     '7', '8', '9', '*',
     '4', '5', '6', '-',
     '1', '2', '3', '+',
-    '.', '0', '{x]','=', 
+    '.', '0', '\u232b', '=',  # Substituído "{x]" por "\u232b"
 ]
 
 
