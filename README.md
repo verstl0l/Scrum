@@ -11,11 +11,16 @@ Bem-vindo ao **CalcCode**\! Este é um projeto de calculadora simples, desenvolv
 
 
   * **Operações Básicas**: Realiza adição (+), subtração (-), multiplicação (\*), e divisão (/).
+  * ****
 
   * **Interface de Linha de Comando (CLI)**: Permite a interação direta no terminal, tornando-o rápido e prático.
 
   * **Código Limpo**: Estrutura de código organizada e comentada, ideal para quem está aprendendo ou quer contribuir.
 
+  
+### Tecnologias Utilizadas
+
+Tkinter: A interface gráfica do usuário (GUI) foi desenvolvida usando a biblioteca Tkinter, que é padrão no Python.
 
 
 ## 🚀 Como Executar o Projeto
