@@ -32,12 +32,16 @@ entrada.grid(row=0, column=0, columnspan=6, padx=40, pady=20, sticky="nsew")
 
 def precionar_tecla(event):
     tecla = event.char
-    if tecla.isdigit() or tecla in "()+-*/.,":
+    # Permitir apenas números, operadores e símbolos da calculadora
+    if tecla.isdigit() or tecla in "()+-*/.=":
         entrada.insert(tk.END, tecla)
-    elif tecla == '\r':
+    elif tecla == '\r':  # Enter para calcular
         clicar("=")
     elif tecla == '\x08':  # Backspace
-        clicar("\u232b")
+        entrada.delete(len(entrada.get())-1, tk.END)
+    # Ignorar qualquer outra tecla
+    return "break"
+
 janela.bind("<Key>", precionar_tecla)
 
 botoes = [
