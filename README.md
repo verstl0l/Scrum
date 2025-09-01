@@ -40,7 +40,7 @@ Caso esteja no Pc é recomendado baixar o VSCode com o seguinte link: https://co
 
 ### Instalação e Execução
 
- Entre no "Scrum" em "CalcCode" e clique em baixar, após a instalação. 
+ Entre no "Scrum" em "CalcCode.py" e clique em baixar, após a instalação. 
 
 Pronto\! A calculadora será iniciada no seu terminal. Siga as instruções na tela para começar a calcular.
 
