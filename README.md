@@ -16,26 +16,13 @@ Para usar o CalcCode, siga estes passos simples:
 
 ### Pré-requisitos
 
-Certifique-se de que você tem o Python instalado em sua máquina. Você pode verificar com o seguinte comando no terminal:
+Certifique-se de que você tem o Python instalado em sua máquina. Caso não tenha, baixe no seguinte link: https://www.python.org/downloads/
+Sua maquina (PC ou Smartphone) contem Vscode ou algum app que abra codigos Python.
+
+Caso esteja no Pc é recomendado baixar o VSCode com o seguinte link: https://code.visualstudio.com/download
 
 ### Instalação e Execução
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/SEU-USUARIO/CalcCode.git
-    ```
-2.  **Entre no diretório do projeto:**
-    ```bash
-    cd CalcCode
-    ```
-3.  **Execute o script:**
-    ```bash
-    python calculator.py
-    ```
-    (Ou use `python3 calculator.py` se for o seu caso)
-### outro modo de instalação/execução
- Entre no "Scrum" em "cod_layuot" e clique em baixar, após a instalação, verifique que sua maquina (PC ou Smartphone) contem Vscode ou algum app que abra codigos Python.
-
+ Entre no "Scrum" em "cod_layuot" e clique em baixar, após a instalação. 
 Pronto\! A calculadora será iniciada no seu terminal. Siga as instruções na tela para começar a calcular.
 
 ## 🤝 Contribuições
