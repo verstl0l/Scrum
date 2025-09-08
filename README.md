@@ -46,7 +46,7 @@ Clique no download do Python.
 
 ![0908(2)](https://github.com/user-attachments/assets/de0c635e-5c07-4d26-84bd-32384dc145de)
 
-Permita as seguntes opções.
+Permita as seguintes opções.
 
 ![0908](https://github.com/user-attachments/assets/ea1343b5-52a0-420c-b4e1-3f7732d79b0c)
 
@@ -56,34 +56,31 @@ Clique em "Close"
 ![0908(3)](https://github.com/user-attachments/assets/60835452-5a97-4df1-976c-2cd700a505c4)
 
 
-
-
 Sua maquina (PC ou Smartphone) contem Vscode ou algum app que abra codigos Python.
 
 Caso esteja no Pc é recomendado baixar o VSCode com o seguinte link: https://code.visualstudio.com/download
 
 ![5](https://github.com/user-attachments/assets/1162d5cb-c865-42f4-8bc7-b2ec5f853e16)
 
-Clique em download com base no seu PC
+Clique em download com base no seu PC.
+
 ![6](https://github.com/user-attachments/assets/182d3882-f006-4c72-9feb-6b5e6e614a9f)
 
+Clica no download do VSCode.
 
 ![7](https://github.com/user-attachments/assets/cebd5c46-60ba-4d6a-999c-79681eeab917)
 
+Permita as seguintes opções:
 
 ![8](https://github.com/user-attachments/assets/b8a938ed-40fc-4505-8973-30204d1ad6b3)
 
 ![9](https://github.com/user-attachments/assets/78bff509-7f78-47c5-9fc5-44620a9ac6ad)
 
+Baixe a Extenção do Python.
+
 ![10](https://github.com/user-attachments/assets/88d5b4ee-f178-4d25-b38b-590aeaa6755c)
 
-
-
-
-
-
-
-
+Agora está pronto pra execução.
 
 ### Instalação e Execução
 
