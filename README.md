@@ -109,6 +109,27 @@ Pronto\! A calculadora será iniciada no seu terminal. Siga as instruções na t
 ![15](https://github.com/user-attachments/assets/bbf260fc-58a1-4590-ade7-ce1c7b0fb7bc)
 
 
+### Sprint 1 18/08/2025
+**Criação do layout de uma calculadora**
+
+https://gamma.app/docs/CalcCode-aqdqzxg5h0u89v0
+
+### Sprint 2 25/08/2025
+
+https://www.canva.com/design/DAGxGDYdRXA/kYNB5wxhrSrES_52BuGIZA/edit?utm_content=DAGxGDYdRXA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+### Sprint 3 01/09/2025
+
+https://www.canva.com/design/DAGxwTdX9mI/odZHfyzr6kdLZoszvSaAgw/edit?utm_content=DAGxwTdX9mI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+### Sprint 4 08/09/2025
+
+https://www.canva.com/design/DAGyaoP3bT0/XLWdSXex5hqR5AB9FebuUg/edit?utm_content=DAGyaoP3bT0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+
+
+
 ## 🤝 Contribuições
 
 
